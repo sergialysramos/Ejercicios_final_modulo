@@ -47,7 +47,7 @@ searchButton.addEventListener('click', () => {
         const dataValues = Object.values(pokemonEstadisticas)
         initChartBar(labels, dataValues);
     }).catch((error) => {
-        alert("No se ha encontrado el Pokemon");
+        alert("No se ha encontrado el Pokemón");
     })
 })
 
@@ -73,7 +73,7 @@ randomButton.addEventListener('click', () => {
         const dataValues = Object.values(pokemonEstadisticas)
         initChartBar(labels, dataValues);
     }).catch((error) => {
-        alert("No se ha encontrado el Pokemon");
+        alert("No se ha encontrado el Pokemón");
     })
 })
 

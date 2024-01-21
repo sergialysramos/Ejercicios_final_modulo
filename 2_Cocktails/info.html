@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Cocktails</title>
+    <link rel="stylesheet" href="styleinfo.css">
+</head>
+
+<body>
+    <div id="cocktailDetails">
+        <h1>Lista de Cocktails</h1>
+
+
+        <label for="cocktailSelect">Selecciona un Cocktail: </label>
+        <select id="cocktailSelect" onchange="showSelectedCocktail()">
+            <option value="" disabled selected>Selecciona un Cocktail</option>
+        </select>
+
+        <ul id="cocktailList"></ul>
+
+        <div id="info">
+            <h2 id="cocktailName"></h2>
+            <img id="cocktailImage" alt="Cocktail Image">
+            <h3>Ingredientes:</h3>
+            <ul id="cocktailIngredients"></ul>
+            <h3>Instrucciones:</h3>
+            <p id="cocktailInstructions"></p>
+            <p class="subtitles"><strong>Tipo de vaso:</strong> <span id="cocktailGlass"></span></p>
+            <p class="subtitles"><strong>Tipo de bebida alcohólica:</strong> <span id="cocktailAlcoholic"></span></p>
+        </div>
+    </div>
+
+</body>
+
+
+<script src="constants/cocktails.js"></script>
+<script src="info.js"></script>
+
+</html>

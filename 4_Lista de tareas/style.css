@@ -1,0 +1,80 @@
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/018/844/003/original/abstract-floral-aesthetic-wallpaper-background-template-with-organic-shapes-and-leaves-illustration-for-cover-banner-brochure-poster-flyer-wallpaper-card-social-media-and-other-free-vector.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid rgb(167, 167, 147);
+    border-radius: 10px;
+    width: 130px;
+    height: 100px;
+    overflow: auto;
+    word-wrap: break-word;
+    position: relative;
+}
+
+#taskForm {
+    background-color: mistyrose;
+    width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#boxTask {
+    padding-top: 40px;
+}
+
+#taskCompleted {
+    background-color: rgb(217, 207, 195);
+    width: 700px;
+    height: fit-content;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+#taskList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#boxList {
+    width: 550px;
+    margin: 0 auto;
+
+}
+
+input {
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    margin-bottom: 10px;
+}
+
+button {
+    margin-bottom: 10px;
+    color: lightgoldenrodyellow;
+    background-color: rgb(89, 110, 110);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.completeButton {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin: 0;
+}

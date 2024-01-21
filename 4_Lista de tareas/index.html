@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskList</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Lista de Tareas</h1>
+
+    <div id="taskCompleted">
+        <div id="boxTask">
+            <form id="taskForm">
+                <label for="title"></label>
+                <input type="text" id="title" placeholder="Título:" required>
+                <br>
+                <label for="description"></label>
+                <textarea type="text" id="description" placeholder="Descripción:" rows="5" required></textarea>
+                <br>
+                <button type="submit">Agregar Tarea</button>
+            </form>
+        </div>
+        <div id="boxList">
+            <ul id="taskList"></ul>
+        </div>
+
+        <button id="markAllCompleted">Tareas Completadas</button>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
